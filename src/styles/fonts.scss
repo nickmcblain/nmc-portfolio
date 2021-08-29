@@ -1,0 +1,11 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Avenir-Black', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Avenir-Black', sans-serif;
+    }
+}
