@@ -14,6 +14,7 @@ const ProjectCardContainer = styled(Link)`
     transition: all 150ms ease-in-out;
     text-decoration: none;
     color: currentColor;
+    border-radius: 10px;
 
     @media(max-width:950px) {
         grid-template-columns: 4.5fr 7fr;
@@ -58,6 +59,7 @@ const ProjectCardContent = styled("div")`
     background: white;
     padding: 4em 3em 2.25em 3em;
     position: relative;
+    border-radius: 10px 0 0 10px;
 
     &:before {
         position: absolute;
@@ -125,6 +127,7 @@ const ProjectCardImageContainer = styled("div")`
     position: relative;
     padding-left: 2em;
     padding-right: 2em;
+    border-radius: 0 10px 10px 0;
 
     @media(max-width:${dimensions.maxwidthTablet}px) {
         padding-top: 3em;
@@ -151,6 +154,7 @@ const ProjectCardImageContainer = styled("div")`
         max-width: 400px;
         width: 100%;
         box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+        border-radius: 5px 5px 0 0;
 
         @media(max-width:${dimensions.maxwidthTablet}px) {
             max-width: 300px;
